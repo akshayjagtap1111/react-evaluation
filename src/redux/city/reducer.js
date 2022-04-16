@@ -8,7 +8,7 @@ const initstate = {
 export const city_reducer = (state = initstate, { type, payload }) => {
   switch (type) {
     case ADD_CITY_SUCCESS:
-      return { ...state, city: [...state.city, payload] };
+      return { ...state, city: [...payload] };
 
     case ADD_CITY_FAILURE:
       return { ...state, error: true };

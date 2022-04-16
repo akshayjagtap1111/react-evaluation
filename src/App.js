@@ -9,9 +9,13 @@ import AddCountry from "./components/addCountry";
 function App() {
   return (
     <div className="App">
+      <div id="navbar">
+
       <Link to="/">Home</Link>
       <Link to="/add-city">AddCIty</Link>
       <Link to="/add-country">AddCountry</Link>
+      </div>
+     
       <Routes>
         <Route path="/" element={<DisplayCity />}></Route>
         <Route path="/add-city" element={<AddCity />}></Route>

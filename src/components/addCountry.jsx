@@ -5,6 +5,8 @@ import { add_city_success } from "../redux/city/action";
 import { add_country_failure, add_country_success } from "../redux/country/action";
 
 export default function AddCountry() {
+
+
     const dispatch = useDispatch()
   const initstate = {
     country: "",
@@ -19,7 +21,7 @@ export default function AddCountry() {
   const handlesubmit = (e) => {
     axios.post("http://localhost:8080/countries", cont).then(()=>{
         
-        dispatch(add_country_success(cont.country))
+        
         console.log(".then")
     }).catch((err)=>{
         alert("check your action object")

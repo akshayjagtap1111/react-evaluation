@@ -27,56 +27,22 @@
     {
       "country": "rushiya",
       "id": 7
+    },
+    {
+      "Country": "abc",
+      "id": 8
+    },
+    {
+      "country": "urop",
+      "id": 9
     }
   ],
   "city": [
     {
-      "Cityname": "pune",
-      "Population": "410000",
-      "Country": "INDIA",
+      "Cityname": "kjhfkrhj",
+      "Population": "kjriewh",
+      "Country": "Rushiya",
       "id": 1
-    },
-    {
-      "Cityname": "mumbai",
-      "Population": "410000",
-      "Country": "INDIA",
-      "id": 2
-    },
-    {
-      "Cityname": "banglore",
-      "Population": "78000000000",
-      "Country": "INDIA",
-      "id": 3
-    },
-    {
-      "Cityname": "",
-      "Population": "",
-      "Country": "",
-      "id": 4
-    },
-    {
-      "Cityname": "city1",
-      "Population": "42222222222",
-      "Country": "US",
-      "id": 5
-    },
-    {
-      "Cityname": "city2",
-      "Population": "200000000000",
-      "Country": "US",
-      "id": 6
-    },
-    {
-      "Cityname": "pune",
-      "Population": "4100000",
-      "Country": "INDIA",
-      "id": 7
-    },
-    {
-      "Cityname": "city2",
-      "Population": "53000000",
-      "Country": "india",
-      "id": 8
     }
   ]
 }

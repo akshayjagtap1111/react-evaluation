@@ -10,7 +10,7 @@ export const country_reducer = (state = initstate, { type, payload }) => {
     case ADD_COUNTRY_SUCCESS:
       return {
         ...state,
-        countries: [...state.countries, payload],
+        countries: [...payload],
       };
     default:
         return state;
