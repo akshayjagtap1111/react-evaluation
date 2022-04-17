@@ -65,6 +65,7 @@ const [temp,settemp] = React.useState(5)
   city=city.filter((el)=>{return el.Country===filt })
   console.log(city)
   settemp(Math.random())
+  dispatch(add_city_success(city))
   }
 
   console.log("rerendered")

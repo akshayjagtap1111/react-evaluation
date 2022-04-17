@@ -43,6 +43,18 @@
       "Population": "kjriewh",
       "Country": "Rushiya",
       "id": 1
+    },
+    {
+      "Cityname": "Baramati",
+      "Population": "5468",
+      "Country": "itly",
+      "id": 2
+    },
+    {
+      "Cityname": "pune",
+      "Population": "560000",
+      "Country": "india",
+      "id": 3
     }
   ]
 }
